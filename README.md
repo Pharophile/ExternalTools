@@ -21,3 +21,5 @@ This is Unix only and requires ``OSProcess`` to be loaded (use the Configuration
 ```
 
 Currently only working in Pharo 3. This is going to be ported to 5.0 and code will be moved to GitHub.
+
+![Pharo3ExternalTools](ExternalToolsScreenshot.png)
