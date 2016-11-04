@@ -5,11 +5,11 @@ I had enough to switch between windows to work on external files.
 
 So, here is *ExternalTools*.
 
-It adds some commands to the File Browser, allowing one to edit in the $EDITOR (for me this is gvim) and another thing for opening the file externally through xdg-open (which kind of opens about anything).
+It adds some commands to the ``File Browser``, allowing one to edit in the `$EDITOR` (for me this is `gvim`) and another thing for opening the file externally through `xdg-open` (which kind of opens about anything).
 
 Basically, one can extend this to whatever is needed.
 
-The only thing is that FileServices initialize needs to be called when a new service is added if you create your own.
+The only thing is that `FileServices initialize` needs to be called when a new service is added if you create your own.
 
 This is Unix only and requires ``OSProcess`` to be loaded (use the ConfigurationBrowser).
 
