@@ -11,9 +11,11 @@ Basically, one can extend this to whatever is needed.
 
 The only thing is that FileServices initialize needs to be called when a new service is added if you create your own.
 
-This is Unix only and requires OSProcess to be loaded (use the ConfigurationBrowser).
+This is Unix only and requires ``OSProcess`` to be loaded (use the ConfigurationBrowser).
 
 	Gofer it 
 		url: 'http://www.smalltalkhub.com/mc/philippeback/HOExtras/main';
 		package: 'HighOctane-Tools';
 		load.
+
+Currently only working in Pharo 3. This is going to be ported to 5.0 and code will be moved to GitHub.
