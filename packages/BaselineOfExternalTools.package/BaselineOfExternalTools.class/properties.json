@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfExternalTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfExternalTools",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
