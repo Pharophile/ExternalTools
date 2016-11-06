@@ -1,0 +1,4 @@
+private
+gVimRegistryRoot
+	^ WinRegistryKey localMachine
+	

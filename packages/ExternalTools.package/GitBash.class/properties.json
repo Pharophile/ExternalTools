@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PhilippeBack 9/19/2014 19:34",
+	"commentStamp" : "PhilippeBack 11/6/2016 16:26",
 	"instvars" : [
 		 ],
-	"name" : "ExternalTools",
+	"name" : "GitBash",
 	"pools" : [
 		"WinUserConstants" ],
 	"super" : "Object",

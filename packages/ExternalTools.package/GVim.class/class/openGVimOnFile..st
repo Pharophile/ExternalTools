@@ -1,16 +1,15 @@
-command
-editWithEditor: aFileReference
+gvim-tools
+openGVimOnFile: aFileReference
+	"self openGitGuiOnDirectory:FileLocator C"
 
-	| editor command   openInDirectory |
-	UIManager default inform: 'Editing ', aFileReference name.
-	
+	| openInDirectory |
 	openInDirectory := self directoryOfFileReference: aFileReference.
 	
+	self halt.
+
 	^ WinShell
 		shellExecute: 'edit'
 		file: aFileReference fullName
 		parameters: ''
 		directory: openInDirectory fullName
 		show: SW_SHOW
-		
-	

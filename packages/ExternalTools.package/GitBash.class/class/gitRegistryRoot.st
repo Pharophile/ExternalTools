@@ -1,0 +1,4 @@
+private
+gitRegistryRoot
+	^ WinRegistryKey classesRoot
+	

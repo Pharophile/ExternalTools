@@ -5,10 +5,8 @@ launchGitGui: aFileReference
 	
 	pathString := aFileReference pathString.
 	UIManager default inform: 'Starting GitGui in ', pathString.
-	command := 'cd "', pathString, '"; git gui'.
-	command := 'git gui'.
 	
-	"ExternalOSProcess command: command." "Fork it"
-	self executeCommandInProcessWrapper: command
-		
+	GitBash openGitGuiOnDirectory: aFileReference
+	
+	
 	

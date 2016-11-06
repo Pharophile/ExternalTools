@@ -1,0 +1,1 @@
+Provides integration with GitBash tools direcly from Pharo

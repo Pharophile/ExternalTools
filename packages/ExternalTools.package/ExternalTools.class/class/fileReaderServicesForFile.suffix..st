@@ -7,6 +7,9 @@ fileReaderServicesForFile: fullName suffix: suffix
 	services add: self serviceEditWithXdgOpen.
 	services add: self serviceEditWithEditor.
 	services add: self serviceExec.
-	services add: self serviceGitGuiBlame.
+	"services add: self serviceGitGuiBlame." "<-- not working yet"
+	services add: self serviceGitGui. 
+	services add: self serviceGitk.
+	"services add: self serviceEditWithGVim."
 
 	^services.

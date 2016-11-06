@@ -9,4 +9,4 @@ serviceEditWithEditor
 		selector: #editWithEditor:
 		description: 'Edit this file with external editor'
 		buttonLabel: 'Edit w/ editor')
-		argumentGetter: [ :fileList | fileList readOnlyStream ]
+		argumentGetter: [ :fileList | fileList reference ]
