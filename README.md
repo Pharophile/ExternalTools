@@ -21,7 +21,7 @@ Metacello new
     githubUser: 'Pharophile' 
     project: 'ExternalTools' 
     commitish: 'master' 
-    path: 'repository';
+    path: 'packages';
     baseline: 'ExternalTools';
     onWarningLog;
     load
