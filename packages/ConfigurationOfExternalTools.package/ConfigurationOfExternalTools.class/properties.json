@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfExternalTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 11/6/2016 21:37",
+	"instvars" : [
+		 ],
+	"name" : "ConfigurationOfExternalTools",
+	"pools" : [
+		 ],
+	"super" : "ConfigurationOf",
+	"type" : "normal" }
