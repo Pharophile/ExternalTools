@@ -1,6 +1,7 @@
 dependencies
 declareOSWindowsDependencyInSpec: spec
-
-		spec configuration: 'OSWindows'
-	    	with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForMetaRepoForPharo50/main' ].
-
+	spec
+		configuration: 'OSWindows'
+		with: [ spec
+				version: #stable;
+				repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main' ]
