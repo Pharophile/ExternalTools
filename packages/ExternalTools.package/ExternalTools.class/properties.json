@@ -1,0 +1,14 @@
+{
+	"category" : "ExternalTools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PhilippeBack 9/19/2014 19:34",
+	"instvars" : [
+		 ],
+	"name" : "ExternalTools",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
