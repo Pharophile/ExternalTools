@@ -8,7 +8,7 @@ So, here is *ExternalTools*.
 ExternalTools add several commands/services to the Pharo FileBrowser (an undervalued gem IMHO).
 
 Windows Version
-===============
+---------------
 
 The Windows version leverages the `OSWindows` project.
 
@@ -26,6 +26,25 @@ Metacello new
     onWarningLog;
     load
 ```
+
+### How it works
+
+[Windows Extensions](ExternalToolsScreenshotWindows.png)
+
+[Example of Git Gui](GitGuiExample.png)
+
+[Edit graphics directly](EditDirectly.png)
+
+[Work with several repos at once](SeveralRepos.png)
+
+[Add images and other assets to repos](AddImagesToRepo.png)
+
+### How it improves the workflow
+
+No more hassles, just keep a file browse around and edit README.md in Vim, see graphics, open PDF books etc. Also allows to work with several GitHub repos at once.
+
+[Workflow Example](Workflow.png)
+
 
 Unix Version
 ------------
